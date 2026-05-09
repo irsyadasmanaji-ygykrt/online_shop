@@ -8,4 +8,11 @@ class Produk extends CI_Controller {
         $this->load->view('produk');
         $this->load->view('templates/footer');
     }
+
+    public function index()
+    {   
+        $this->load->view('templates/header');
+        $this->load->view('produk');
+        $this->load->view('templates/footer');
+    }
 }
